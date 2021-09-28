@@ -1,0 +1,42 @@
+2021-09-27 11:30:41.720  INFO 12980 --- [main] com.tataelxsi.SkillCenterAppApplication  : Starting SkillCenterAppApplication using Java 16.0.2 on 25956-443541 with PID 12980 (C:\Users\25956\Downloads\SkillCenter (1)\SkillCenter\target\classes started by 25956 in C:\Users\25956\Downloads\SkillCenter (1)\SkillCenter)
+2021-09-27 11:30:41.727  INFO 12980 --- [main] com.tataelxsi.SkillCenterAppApplication  : No active profile set, falling back to default profiles: default
+2021-09-27 11:30:42.883  INFO 12980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-27 11:30:43.023  INFO 12980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 12 JPA repository interfaces.
+2021-09-27 11:30:43.427  INFO 12980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3434 (http)
+2021-09-27 11:30:43.454  INFO 12980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-27 11:30:43.454  INFO 12980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-27 11:30:43.602  INFO 12980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-27 11:30:43.602  INFO 12980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1827 ms
+2021-09-27 11:30:43.752  INFO 12980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-27 11:30:43.794  INFO 12980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-27 11:30:43.910  INFO 12980 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-27 11:30:44.113  INFO 12980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-27 11:30:44.606  INFO 12980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-27 11:30:44.620  INFO 12980 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-27 11:30:45.722  INFO 12980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-27 11:30:45.729  INFO 12980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-27 11:30:46.489  WARN 12980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-27 11:30:46.622  INFO 12980 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-27 11:30:46.962  INFO 12980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3434 (http) with context path ''
+2021-09-27 11:30:46.963  INFO 12980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-27 11:30:46.985  INFO 12980 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-27 11:30:47.022  INFO 12980 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-27 11:30:47.250  INFO 12980 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllEmployeeSkillsUsingGET_1
+2021-09-27 11:30:47.259  INFO 12980 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllEmployeesUsingGET_1
+2021-09-27 11:30:47.281  INFO 12980 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllGradesUsingGET_1
+2021-09-27 11:30:47.288  INFO 12980 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllLevelsUsingGET_1
+2021-09-27 11:30:47.296  INFO 12980 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllSkillSetsUsingGET_1
+2021-09-27 11:30:47.305  INFO 12980 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllSkillsUsingGET_1
+2021-09-27 11:30:47.391  INFO 12980 --- [main] com.tataelxsi.SkillCenterAppApplication  : Started SkillCenterAppApplication in 6.045 seconds (JVM running for 7.073)
+2021-09-27 11:30:47.394  INFO 12980 --- [main] com.tataelxsi.SkillCenterAppApplication  : SkillCenter Application started ....
+2021-09-27 12:43:27.200  INFO 12980 --- [http-nio-3434-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-27 12:43:27.203  INFO 12980 --- [http-nio-3434-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-27 12:43:27.215  INFO 12980 --- [http-nio-3434-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-09-27 12:43:30.465  WARN 12980 --- [http-nio-3434-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2021-09-27 14:02:45.326  WARN 12980 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m16s168ms673µs500ns).
+2021-09-27 16:24:12.733  WARN 12980 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h49m26s930ms40µs100ns).
+2021-09-27 17:37:19.057  WARN 12980 --- [http-nio-3434-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2021-09-27 18:09:22.989  INFO 12980 --- [RMI TCP Connection(283)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-27 18:09:23.098  INFO 12980 --- [RMI TCP Connection(283)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-27 18:09:23.105  INFO 12980 --- [RMI TCP Connection(283)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-27 18:09:23.114  INFO 12980 --- [RMI TCP Connection(283)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
